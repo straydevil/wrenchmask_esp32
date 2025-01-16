@@ -1,4 +1,4 @@
-/** benzoganger's fork of TomMakesThings's wrenchmask, now supporting ESP32's onboard bluetooth. **/
+/** straydevil's fork of TomMakesThings's wrenchmask, now supporting ESP32's onboard bluetooth. **/
 
 #include <LedControl.h>
 #include <BluetoothSerial.h>
@@ -2495,4 +2495,3 @@ void loop()
   Serial.print(data);
   Serial.print(currentValue);
 }
-/** newfolderone 2023 **/
